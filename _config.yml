@@ -22,7 +22,7 @@ website: zigler.xyz
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.png
-about_content: # this will include new lines to allow paragraphs
+about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Ryan.  
 
 I am most skilled in: <mark>Microsoft Excel</mark>, <mark>Mircosoft Windows</mark>, and <mark>Computer Networking</mark>.
