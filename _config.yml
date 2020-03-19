@@ -24,9 +24,9 @@ website: zigler.xyz
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Ryan.
+  Hi, my name is Ryan!
   
-  I am most skilled in: <mark>Microsoft Excel</mark>, <mark>Mircosoft Windows</mark>, and <mark>Computer Networking</mark>.
+  I am most skilled in: <mark>Computer hardware/software troubleshooting and repair</mark>; <mark>Mircosoft Windows and Linux</mark>, and <mark>Computer Networking</mark>.
 
 # Experience Section
 # experience_title: Experience
@@ -40,12 +40,14 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
+I love technology and enjoy tinkering and repurposing computer hardware into various projects and functions around my house.
+
   Alongside my interests in networks and computers some of my other interests and hobbies are:
    - Golf
-   - Smoking delicous meats as well as general cooking
+   - BBQing, smoking meats, and cooking
    - Traveling
    - Photography
-   - Playing whatever games my 5-year-old son can come up with
+   
 
 # Footer
 footer_show_references: true
