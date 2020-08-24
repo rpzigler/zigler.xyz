@@ -4,18 +4,18 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Ryan Zigler
-# title: Managing Registered Assistant
+title: Software Engineer
 email: ryan@zigler.xyz
 website: zigler.xyz
 
 # Social links
 # twitter_username: facespics
-# github_username:  sproogen
+github_username: ryanzigler
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: chillwildlife
-# linkedin_username: jameswgrant
+linkedin_username: ryanzigler
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
@@ -26,7 +26,7 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, my name is Ryan!
   
-  I am most skilled in: <mark>Computer hardware/software troubleshooting and repair</mark>; <mark>Mircosoft Windows and Linux</mark>, and <mark>Computer Networking</mark>.
+  I am most skilled in: <mark>JavaScript</mark>; <mark>React</mark>, and <mark>Node.js</mark>.
 
 # Experience Section
 # experience_title: Experience
