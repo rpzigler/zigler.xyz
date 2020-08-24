@@ -4,13 +4,6 @@
   qualification: Software Engineering Immersive
   quote: >
   description: | # this will include new lines to allow paragraphs
-
-- layout: left
-  name: Financial Industry Regulatory Authority (FINRA)
-  dates: 2014
-  qualification: Series 6 and 63
-  quote: >
-  description: | # this will include new lines to allow paragraphs
  
 - layout: left 
   name: Saint John's University
