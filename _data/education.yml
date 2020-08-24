@@ -1,20 +1,20 @@
 - layout: left
+  name: Hack Reactor
+  dates: 2020
+  qualification: Software Engineering Immersive
+  quote: >
+  description: | # this will include new lines to allow paragraphs
+
+- layout: left
   name: Financial Industry Regulatory Authority (FINRA)
   dates: 2014
   qualification: Series 6 and 63
   quote: >
   description: | # this will include new lines to allow paragraphs
-
-- layout: left
-  name: University of Minnesota
-  dates: 2007
-  qualification: Political Science
-  quote: >
-  description: | # this will include new lines to allow paragraphs
  
 - layout: left 
   name: Saint John's University
-  dates: 2003-2006
+  dates: 2003-2007
   qualification: Political Science
   quote: >
   description: | # this will include new lines to allow paragraphs
