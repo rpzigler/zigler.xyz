@@ -2,8 +2,8 @@
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 
 {%- include head.html -%}
-
-<body>
+    
+    <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
     {%- include header.html -%}
 
