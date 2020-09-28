@@ -1,17 +1,11 @@
-- layout: left
-  company: LPL Financial - Zigler & Associates
-  link: ziglerandassociates.com
-  job_title: Managing Registered Representative
-  dates: 2007 - 2020
+# Project template
+- layout: top-middle
+  name: Arcadia
+  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
-     
-  description: | # this will include new lines to allow paragraphs 
-    - Prepared, analyzed, and executed multilayered, long-term financial plans for clients to optimize client assets, Social Security, and pension plans for maximum tax efficiency and longevity.
-
-    - Oversaw the successful transition of more than $30 million of assets as part of a 6-month transition between broker/dealers.
-    
-    - Maintain client relationships with frequent communication via telephone, in-person meetings, and written correspondence.
-
-    - Deployed and maintained office IT and computer hardware/software eliminating the need for outside IT support vendors.
-
-    - Designed and maintained websites for the company and its various subsidiaries balancing custom HTML and CSS styling with third-party scripts and plugins.
+    The ultimate destination for playing, discussing, and creating games 
+  description: | # this will include new lines to allow paragraphs
+    - Optimized an inherited database and front-end to reduce database storage requirements by 69%
+    - Utilized K6, Loader.io, and New Relic to test and analyze metrics reducing response times by over 30% 
+    -	Deployed multiple EC2 instances via an NGINX load balance to increase throughput over 500%
