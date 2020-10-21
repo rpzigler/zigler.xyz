@@ -1,8 +1,22 @@
+# Project template
 - layout: top-middle
-  name: WLTE Radio Show "On the Money"
-  link: 
-  github: 
-  quote: > 
-     Producer
+  name: Arcadia
+  # link: INSERT LINK
+  github: SDC-Karev/media-window
+  quote: >
+    The ultimate destination for playing, discussing, and creating games
   description: | # this will include new lines to allow paragraphs
-    Developed and produced a weekly financial talk radio show hosted by Zigler & Associates called, "On the Money," which was on the Twin Cities radio station, WLTE.  I was responsible for creating the content of the show, writing the script, submitting the script to our Advertising Compliance department, negotiating a middle ground between what the hosts wanted to talk about on-air and what Advertising Compliance was comfortable with what the hosts talked about on air, and screening calls and questions from the audience during the show.
+    - Optimized an inherited database and front-end to reduce database storage requirements by 69%
+    - Utilized K6, Loader.io, and New Relic to test and analyze metrics reducing response times by over 30%
+    - Deployed multiple EC2 instances via an NGINX load balance to increase throughput over 500%
+
+- layout: top-middle
+  name: Wandrr
+  # link: https://github.com/hrr47-karev/property-info-service
+  github: hrr47-karev/property-info-service
+  quote: >
+    A travel app for wander lusters traveling on a budget
+  description: | # this will include new lines to allow paragraphs
+    - Leveraged React Hooks to reduce code reproduction by 66% in modal components
+    -	Implemented service-orientated architecture to combine four individual services on AWS
+    -	Utilized Styled-Components to create a dynamic experience while reducing CSS conflicts from other components in SOA deployment.
