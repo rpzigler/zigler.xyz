@@ -4,59 +4,77 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Ryan Zigler
-title: Full-Stack Software Engineer
+title: Full-stack Software Engineer
 email: ryan@zigler.xyz
-website: zigler.xyz
+# phone: Your phone number (optional)
+# website: Your website (eg. https://google.com)(optional)
 
 # Social links
-# twitter_username: facespics
+# twitter_username: jekyllrb
 github_username: ryanzigler
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-# instagram_username: chillwildlife
+# instagram_username: jekyll
 linkedin_username: ryanzigler
+# xing_username: jekyll
 # pinterest_username: jekyll
-# youtube_username: globalmtb
+# youtube_username: jekyll
 # googleplus_username: +jekyll
 
 # About Section
-# about_title: About Me
-about_profile_image: images/profile.png
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name is Ryan!
-  
-  I am most skilled in: <mark>JavaScript</mark>; <mark>React</mark>, and <mark>Node.js</mark>.
+  Hi, I'm Ryan Zigler!
 
-# Experience Section
-# experience_title: Experience
+  I am a full-stack software engineer with a background in <mark>JavaScript (ES5/ES6+)</mark>, specifically with <mark>React, Redux, & Hooks</mark>; <mark>Express</mark>; <mark>mongoDB</mark>; <mark>mySQL</mark>; <mark>PostgreSQL</mark>; <mark>git</mark>; and <mark>AWS S3, EC2, VPC, & RDS</mark>. I enjoy making intuitive, clean applications that are fast and easy to use.
 
-# Education Section
-# educaton_title: Education
+  I love solving problems through creative, efficient solutions and have a passion for learning new technologies. I am currently expanding my <mark>Python</mark> knowledge and learning <mark>Rust</mark>.
 
 # Projects Section
-# projects_title: Projects
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me
+more_title: When I'm Not Coding... #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  I love technology and enjoy tinkering and repurposing computer hardware into various projects and functions around my house.
-  
-  Alongside my interests in networks and computers some of my other interests and hobbies are: 
-   - Golf
-   - BBQing, smoking meats, and cooking
-   - Traveling
-   - Photography
+
+
+
+  When I'm not working, you'll likely find me tinkering and deploying random hardware for various projects around my house. So perhaps the section title was a little bit of a white lie as these project normally involve some sort of coding, but it's mainly playing with hardware.
+
+  When I'm not at my desk, I try to be outdoors and as active as possible! I love hockey and I try to play as much golf as life and Minnesota weather will allow. My other hobbies include travelling, hiking, camping, photography, and cooking/BBQing.
 
 # Footer
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+  ]
