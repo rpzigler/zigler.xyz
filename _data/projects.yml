@@ -1,9 +1,22 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: Arcadia
+  # link: INSERT LINK
+  github: SDC-Karev/media-window
   quote: >
-    Short overview of the project (optional)
+    The ultimate destination for playing, discussing, and creating games
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    - Optimized an inherited database and front-end to reduce database storage requirements by 69%
+    - Utilized K6, Loader.io, and New Relic to test and analyze metrics reducing response times by over 30%
+    - Deployed multiple EC2 instances via an NGINX load balance to increase throughput over 500%
+
+- layout: top-middle
+  name: Wandrr
+  # link: https://github.com/hrr47-karev/property-info-service
+  github: hrr47-karev/property-info-service
+  quote: >
+    A travel app for wander lusters traveling on a budget
+  description: | # this will include new lines to allow paragraphs
+    - Leveraged React Hooks to reduce code reproduction by 66% in modal components
+    -	Implemented service-orientated architecture to combine four individual services on AWS
+    -	Utilized Styled-Components to create a dynamic experience while reducing CSS conflicts from other components in SOA deployment.
