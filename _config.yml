@@ -9,6 +9,9 @@ email: ryan@zigler.xyz
 # phone: Your phone number (optional)
 # website: Your website (eg. https://google.com)(optional)
 
+# Dark Mode (true/false/never)
+darkmode: true
+
 # Social links
 # twitter_username: jekyllrb
 github_username: ryanzigler
