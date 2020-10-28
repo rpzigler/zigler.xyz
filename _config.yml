@@ -9,6 +9,9 @@ email: ryan@zigler.xyz
 # phone: Your phone number (optional)
 # website: Your website (eg. https://google.com)(optional)
 
+# Dark Mode (true/false/never)
+darkmode: false
+
 # Social links
 # twitter_username: jekyllrb
 github_username: ryanzigler
@@ -47,6 +50,8 @@ more_content: | # this will include new lines to allow paragraphs
 
 
 
+
+
   When I'm not working, you'll likely find me tinkering and deploying random hardware for various projects around my house. So perhaps the section title was a little bit of a white lie as these project normally involve some sort of coding, but it's mainly playing with hardware.
 
   When I'm not at my desk, I try to be outdoors and as active as possible! I love hockey and I try to play as much golf as life and Minnesota weather will allow. My other hobbies include travelling, hiking, camping, photography, and cooking/BBQing.
@@ -56,7 +61,7 @@ footer_show_references: true
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass

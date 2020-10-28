@@ -6,9 +6,9 @@
   # quote: >
   # Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
-    The Advanced Software Engineer Immersive is a full-time, 12-week educational program consisting of 11+ hours a day, 6 days a week in a classroom environment that focuses on developing solution-oriented engineers. With over 1000 hours of on-hands experience dedicated to developing full-stack applications with JavaScript, Node.js, Express, React, MySQL and MongoDB (and other as well as other relational and non-relational databases), following Agile methodologies to explore problems and construct multi-level solutions.
+    The Advanced Software Engineer Immersive is a full-time, 12-week educational program consisting of 11+ hours a day, 6 days a week in a classroom environment that focuses on developing solution-oriented engineers. With over 1000 hours of on-hands experience dedicated to developing full-stack applications with JavaScript, Node.js, Express, React, MySQL, and MongoDB (and other as well as other relational and non-relational databases), following Agile methodologies to explore problems and construct multi-level solutions.
 
-- layout: Left
+- layout: left
   name: Saint John's University
   dates: 2003-2007
   qualification: Political Science
