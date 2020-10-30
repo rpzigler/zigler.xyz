@@ -8,7 +8,7 @@
   description: | # this will include new lines to allow paragraphs
     - Optimized an inherited database and front-end to reduce database storage requirements by 69%.
     - Utilized K6, Loader.io, and New Relic to test and analyze metrics reducing response times by over 30%.
-    - Deployed multiple EC2 instances via an NGINX load balancer to increase throughput from 100 RPS to 5,000 RPS with a 12ms response time and <1% error rate.
+    - Implemented horizontal scaling with an Nginx load balancer to increase throughput from 100 RPS to 5,000 RPS with a 12ms response time and <1% error rate.
 
 - layout: top-middle
   name: Wandrr
