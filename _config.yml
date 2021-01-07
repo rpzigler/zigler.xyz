@@ -2,28 +2,51 @@
 repository: rpzigler/zigler.xyz
 favicon: images/favicon.ico
 
+# Content configuration version
+version: 2
+
 # Personal info
 name: Ryan Zigler
 title: Full-stack Software Engineer
 email: ryan@zigler.xyz
+# email_title: Email (Email title override)
 # phone: Your phone number (optional)
+# phone_title: Phone (Phone title override)
 # website: Your website (eg. https://google.com)(optional)
+# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: jekyllrb
+#twitter_username: jekyllrb
 github_username: ryanzigler
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
+#stackoverflow_username: "00000001"
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
 linkedin_username: ryanzigler
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+#xing_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
+#orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+#additional_links:
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me (Use this to override about section title)
@@ -35,31 +58,85 @@ about_content: | # this will include new lines to allow paragraphs
 
   I love solving problems through creative, efficient solutions, and have a passion for learning new technologies. I am currently expanding my <mark>Python</mark> knowledge and learning <mark>Rust</mark>.
 
-# Projects Section
-# projects_title: Projects #(Use this to override about projects section title)
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Arcadia
+        #link:
+        #link_text:
+        additional_links:
+          - title: Project Github
+            icon: fab fa-github
+            url: github.com/SDC-Karev/media-window
+        quote: >
+          The ultimate destination for playing, discussing, and creating games
+        description: | # this will include new lines to allow paragraphs
+          - Reduced an inherited database’s storage requirements by 69% by refactoring the database schema to remove the storing of redundant information and refactoring the front-end.
+          - Reduced response times by over 30% utilizing K6, Loader.io, and New Relic to test and analyze metrics of different load balancing techniques.
+          - Implemented horizontal scaling with an NGINX load balancer to increase throughput from 100 RPS to 5,000 RPS with a 12ms response time and 0% error rate.
 
-# Experience Section
-# experience_title: Experience #(Use this to override about experience section title)
+      - layout: top-middle
+        title: Wandrr
+        #link:
+        #link_text:
+        additional_links:
+          - title: Project Github
+            icon: fab fa-github
+            url: github.com/hrr47-karev/property-info-service
+        quote: >
+          A travel app for wander lusters traveling on a budget
+        description: | # this will include new lines to allow paragraphs
+          - Leveraged React Hooks to utilize global state without Redux and reduce code reproduction by 66% in modal components.
+          -	Implemented service-oriented architecture to combine four services on AWS ec2 using an NGINX proxy server.
+          -	Utilized Styled-Components to create a dynamic experience and reduce CSS conflicts from other services in SOA deployment.
+          - Collaborated with four engineers using Agile software development practices and tools.
+  - title: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Zigler & Associates | LPL Financial
+        # link: Link to company (optional)
+        sub_title: Managing Registered Representative
+        caption: 2007 - 2020
+        # quote: >
+        # Short description of the company (optional)
+        description: | # this will include new lines to allow paragraphs
+          -	Oversaw the successful transition of over $30 million of assets as part of a 6-month transition between broker/dealers with a 100% client retention rate.
+          - Engineered and executed long-term financial plans using Monte Carlo methods to increase the probability of success through age 95 to greater than 90%.
+          - Supervised a team of more than two dozen registered and unregistered staff members across 7 locations.
+          - Planned, organized, and taught at more than 20 community education workshops on various financial topics such as Social Security, taxes, and creating budgets.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Hack Reactor @ Galvaniz
+        sub_title: Advanced Software Engineering Immersive
+        caption: 2020
+        # quote: >
+        # Short institution or course description (optional)
+        description: | # this will include new lines to allow paragraphs
+          The Advanced Software Engineer Immersive is a full-time, 12-week educational program consisting of 11+ hours a day, 6 days a week in a classroom environment that focuses on developing solution-oriented engineers. With over 1000 hours of on-hands experience dedicated to developing full-stack applications with JavaScript, Node.js, Express, React, MySQL, and MongoDB (and other as well as other relational and non-relational databases), following Agile methodologies to explore problems and construct multi-level solutions.
+      - layout: left
+        title: Saint John's University
+        sub_title: Political Science
+        caption: 2003-2007
 
-# Education Section
-# education_title: Education #(Use this to override about education section title)
+  - title: When I'm Not Coding...
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      When I'm not working, you'll likely find me tinkering and deploying random hardware for various projects around my house. So perhaps the section title was a little bit of a white lie as these projects normally involve some sort of coding, but it's mainly playing with hardware.
 
-# More Section
-more_title: When I'm Not Coding... #(Use this to override about more section title)
-more_content: | # this will include new lines to allow paragraphs
-
-
-
-  When I'm not working, you'll likely find me tinkering and deploying random hardware for various projects around my house. So perhaps the section title was a little bit of a white lie as these projects normally involve some sort of coding, but it's mainly playing with hardware.
-
-  When I'm not at my desk, I try to be outdoors as much as possible! I love hockey and I try to play as much golf as life and Minnesota weather will allow. My other hobbies include traveling, hiking, camping, photography, and cooking/BBQing.
+      When I'm not at my desk, I try to be outdoors as much as possible! I love hockey and I try to play as much golf as life and Minnesota weather will allow. My other hobbies include traveling, hiking, camping, photography, and cooking/BBQing.
 
 # Footer
 footer_show_references: true
+# references_title: References on request (Override references text)
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme
+remote_theme: sproogen/modern-resume-theme # (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -68,16 +145,15 @@ sass:
 plugins:
   - jekyll-seo-tag
 
-exclude:
-  [
-    "Gemfile",
-    "Gemfile.lock",
-    "node_modules",
-    "vendor/bundle/",
-    "vendor/cache/",
-    "vendor/gems/",
-    "vendor/ruby/",
-    "lib/",
-    "scripts/",
-    "docker-compose.yml",
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
   ]
