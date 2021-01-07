@@ -6,9 +6,9 @@
   quote: >
     The ultimate destination for playing, discussing, and creating games
   description: | # this will include new lines to allow paragraphs
-    - Optimized an inherited database and front-end to reduce database storage requirements by 69%.
-    - Utilized K6, Loader.io, and New Relic to test and analyze metrics reducing response times by over 30%.
-    - Implemented horizontal scaling with an Nginx load balancer to increase throughput from 100 RPS to 5,000 RPS with a 12ms response time and <1% error rate.
+    - Reduced an inherited database’s storage requirements by 69% by refactoring the database schema to remove the storing of redundant information and refactoring the front-end.
+    - Reduced response times by over 30% utilizing K6, Loader.io, and New Relic to test and analyze metrics of different load balancing techniques.
+    - Implemented horizontal scaling with an NGINX load balancer to increase throughput from 100 RPS to 5,000 RPS with a 12ms response time and 0% error rate.
 
 - layout: top-middle
   name: Wandrr
@@ -17,6 +17,7 @@
   quote: >
     A travel app for wander lusters traveling on a budget
   description: | # this will include new lines to allow paragraphs
-    - Leveraged React Hooks to reduce code reproduction by 66% in modal components.
-    -	Implemented service-oriented architecture to combine four individual services on AWS.
-    -	Utilized Styled-Components to create a dynamic experience while reducing CSS conflicts from other components in SOA deployment.
+    - Leveraged React Hooks to utilize global state without Redux and reduce code reproduction by 66% in modal components.
+    -	Implemented service-oriented architecture to combine four services on AWS ec2 using an NGINX proxy server.
+    -	Utilized Styled-Components to create a dynamic experience and reduce CSS conflicts from other services in SOA deployment.
+    - Collaborated with four engineers using Agile software development practices and tools.
